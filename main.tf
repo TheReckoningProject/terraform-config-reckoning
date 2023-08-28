@@ -5,7 +5,7 @@ provider "aws" {
 data "aws_availability_zones" "available" {}
 
 locals {
-  name   = "terraform-config-reckoning"
+  name   = "reckoning"
   region = "us-east-1"
 
   vpc_cidr = "10.0.0.0/16"
